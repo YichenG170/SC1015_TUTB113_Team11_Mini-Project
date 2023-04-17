@@ -1,2 +1,8 @@
 # SC1015_TUTB113_Team11_Mini-Project
-SC1015_TUTB113_Team11_Mini-Project
+The main purpose of the mini-project is to find factors that can be used to predict whether a flight's arrival time will be delayed or not, and further find appropriate models using these variables to predict whether the flight's arrival time will be delayed or not. 
+
+All of the data covered in this mini-project are in the CSV file "DelayedFlights". Data in this CSV file is gathered by the U.S. Department of Transportation's (DOT) Bureau of Transportation Statistics (BTS) in 2008, and can be downloaded on https://www.kaggle.com/datasets/giovamata/airlinedelaycauses. 
+
+After data preparation and data cleaning, an EDA is done to select potential numeric predictors for the response variable `ArrDelay`. Categorical variables are found to be unsuitable for predicting. 
+
+When selecting models for the dataset, RandomForestClassifier (extra-curricular knowledge) and DecisionTreeClassifier are used. Both of them have accurate predictions, and results from DecisionTreeClassifier is even more accurate than results from RandomForestClassifier. 
